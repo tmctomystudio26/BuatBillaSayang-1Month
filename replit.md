@@ -32,6 +32,7 @@ Untuk mengubah konten ucapan, edit bagian script di index.html:
 - `txtPesanUtama`: Pesan utama yang ditampilkan
 - `txtTambahan`: Pesan tambahan
 - Memory game icons dapat diubah di array `kartu`
+- Nomor WhatsApp untuk tombol "Balas": 6285122936027
 
 ## Cara Testing Website
 Untuk memastikan website berfungsi dengan baik:
