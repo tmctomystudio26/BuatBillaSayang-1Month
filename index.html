@@ -600,8 +600,10 @@
 
                 // Share ke WhatsApp
                 function balasWa() {
-                        const url = window.location.href;
-                        window.open(`https://wa.me/6285122936027?text=${encodeURIComponent(teksPesanWa)}`, '_blank');
+		const pesanBalasan = prompt("Tulis pesan balasan kamu:", teksPesanWa);
+		if (pesanBalasan !== null && pesanBalasan.trim() !== "") {
+			window.open(`https://wa.me/6285122936027?text=${encodeURIComponent(pesanBalasan)}`, "_blank");
+		}
                 }
         </script>
 </body>
